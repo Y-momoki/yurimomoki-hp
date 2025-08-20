@@ -11,22 +11,4 @@ body { outline: 2px dashed rgba(0,0,0,.12); } /* テスト後に消す */
   margin-left: calc(var(--wp--style--root--padding-left) * -1);
   margin-right: calc(var(--wp--style--root--padding-right) * -1);
 }
-/* bodyの上パディングを打ち消す */
-.hr-no-pad-top {
-  margin-top: calc(var(--wp--style--root--padding-top) * -1) !important;
-}
-/* bodyの下パディングを打ち消す */
-.hr-no-pad-bot {
-  margin-bottom: calc(var(--wp--style--root--padding-bottom) * -1) !important;
-}
 
-/* bodyのパディングをつける */
-.hr-pad{
-  margin-left : var(--wp--style--root--padding-left);
-  margin-right: var(--wp--style--root--padding-right);
-}
-
-/* bodyの上パディングをつける(現在homeのページジャンプ用ブロックに使用) */
-.hr-pad-top{
-  padding-top : var(--wp--style--root--padding-top);
-}
