@@ -1,7 +1,31 @@
 {
   "version": 2,
   "settings": {
-    "layout": { "contentSize": "720px", "wideSize": "1100px" }
+    "layout": { "contentSize": "720px", "wideSize": "1100px" },
+    "typography": {
+      "fontFamilies": [
+        { "slug": "poppins", "name": "Poppins", "fontFamily": "Poppins" },
+        { "slug": "noto-sans-jp", "name": "Noto Sans JP", "fontFamily": "'Noto Sans JP'" },
+        {
+          "slug": "poppins-noto-sans-jp",
+          "name": "Poppins ⇄ Noto Sans JP",
+          "fontFamily": "Poppins, 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', Meiryo, system-ui, sans-serif"
+        }
+      ]
+    }
   },
-  "styles": {}
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--poppins-noto-sans-jp)",
+      "fontWeight": "400"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--poppins-noto-sans-jp)",
+          "fontWeight": "400"
+        }
+      }
+    }
+  }
 }
