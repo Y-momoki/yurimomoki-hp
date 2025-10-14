@@ -4,12 +4,51 @@
     "layout": { "contentSize": "720px", "wideSize": "1100px" },
     "typography": {
       "fontFamilies": [
-        { "slug": "poppins", "name": "Poppins", "fontFamily": "Poppins" },
-        { "slug": "noto-sans-jp", "name": "Noto Sans JP", "fontFamily": "'Noto Sans JP'" },
+        {
+          "slug": "poppins",
+          "name": "Poppins",
+          "fontFamily": "Poppins",
+          "fontFace": [
+            {
+              "fontFamily": "Poppins",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": ["file:./fonts/poppins-v23-latin-regular.woff2"],
+              "fontDisplay": "swap"
+            }
+          ]
+        },
+        {
+          "slug": "noto-sans-jp",
+          "name": "Noto Sans JP",
+          "fontFamily": "'Noto Sans JP'",
+          "fontFace": [
+            {
+              "fontFamily": "Noto Sans JP",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": ["file:./fonts/noto-sans-jp-v54-japanese_latin-regular.woff2"],
+              "fontDisplay": "swap"
+            },
+            {
+              "fontFamily": "Noto Sans JP",
+              "fontStyle": "normal",
+              "fontWeight": "600",
+              "src": ["file:./fonts/noto-sans-jp-v54-japanese_latin-600.woff2"],
+              "fontDisplay": "swap"
+            }
+          ]
+        },
         {
           "slug": "poppins-noto-sans-jp",
           "name": "Poppins ⇄ Noto Sans JP",
-          "fontFamily": "Poppins, 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', Meiryo, system-ui, sans-serif"
+          "fontFamily": "Poppins, 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', Meiryo, system-ui, sans-serif",
+          "fontFace": [
+            { "fontFamily": "Poppins", "fontStyle": "normal", "fontWeight": "400", "src": ["file:./fonts/poppins-v23-latin-regular.woff2"], "fontDisplay": "swap" },
+            { "fontFamily": "Poppins", "fontStyle": "normal", "fontWeight": "600", "src": ["file:./fonts/poppins-v23-latin-600.woff2"],    "fontDisplay": "swap" },
+            { "fontFamily": "Noto Sans JP", "fontStyle": "normal", "fontWeight": "400", "src": ["file:./fonts/noto-sans-jp-v54-japanese_latin-regular.woff2"], "fontDisplay": "swap" },
+            { "fontFamily": "Noto Sans JP", "fontStyle": "normal", "fontWeight": "600", "src": ["file:./fonts/noto-sans-jp-v54-japanese_latin-600.woff2"],    "fontDisplay": "swap" }
+          ]
         }
       ]
     }
