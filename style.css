@@ -5,10 +5,6 @@
  Text Domain: tt5-child
 */
 
-body { outline: 2px dashed rgba(0,0,0,.12); } /* テスト後に消す */
-/* bodyの左右パディングを打ち消す */
-.hr-no-pad {
-  margin-left: calc(var(--wp--style--root--padding-left) * -1);
-  margin-right: calc(var(--wp--style--root--padding-right) * -1);
-}
+html { font-family: Poppins, 'Noto Sans JP', system-ui, sans-serif !important; }
 
+ 
